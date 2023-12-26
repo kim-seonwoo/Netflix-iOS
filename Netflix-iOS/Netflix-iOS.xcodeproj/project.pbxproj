@@ -15,6 +15,7 @@
 		0B59E3CE2B3B2830000FCB3B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3CD2B3B2830000FCB3B /* SnapKit */; };
 		0B59E3D02B3B2830000FCB3B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3CF2B3B2830000FCB3B /* SnapKit-Dynamic */; };
 		0B59E3D32B3B2839000FCB3B /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3D22B3B2839000FCB3B /* Then */; };
+		0B59E3D52B3B301F000FCB3B /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3D42B3B301F000FCB3B /* PagingView.swift */; };
 		0BC043DB2B3A9DD2008495FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DA2B3A9DD2008495FB /* AppDelegate.swift */; };
 		0BC043DD2B3A9DD2008495FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DC2B3A9DD2008495FB /* SceneDelegate.swift */; };
 		0BC043DF2B3A9DD2008495FB /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DE2B3A9DD2008495FB /* MainTabBarViewController.swift */; };
@@ -28,6 +29,7 @@
 		0B59E3C02B3B06EC000FCB3B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0B59E3C22B3B06F9000FCB3B /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		0B59E3C82B3B1110000FCB3B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		0B59E3D42B3B301F000FCB3B /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		0BC043D72B3A9DD2008495FB /* Netflix-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC043DA2B3A9DD2008495FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC043DC2B3A9DD2008495FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				0B59E3C72B3B10FB000FCB3B /* Cells */,
+				0B59E3D42B3B301F000FCB3B /* PagingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B59E3D52B3B301F000FCB3B /* PagingView.swift in Sources */,
 				0B59E3C12B3B06EC000FCB3B /* SearchViewController.swift in Sources */,
 				0BC043DF2B3A9DD2008495FB /* MainTabBarViewController.swift in Sources */,
 				0B59E3C92B3B1110000FCB3B /* CollectionViewTableViewCell.swift in Sources */,
