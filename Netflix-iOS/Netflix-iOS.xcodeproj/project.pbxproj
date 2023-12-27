@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		0B59E3BD2B3B06D0000FCB3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3BC2B3B06D0000FCB3B /* HomeViewController.swift */; };
 		0B59E3BF2B3B06E2000FCB3B /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3BE2B3B06E2000FCB3B /* UpcomingViewController.swift */; };
-		0B59E3C12B3B06EC000FCB3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3C02B3B06EC000FCB3B /* SearchViewController.swift */; };
+		0B59E3C12B3B06EC000FCB3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3C02B3B06EC000FCB3B /* LoginViewController.swift */; };
 		0B59E3C32B3B06F9000FCB3B /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3C22B3B06F9000FCB3B /* DownloadsViewController.swift */; };
 		0B59E3C92B3B1110000FCB3B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3C82B3B1110000FCB3B /* CollectionViewTableViewCell.swift */; };
-		0B59E3CE2B3B2830000FCB3B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3CD2B3B2830000FCB3B /* SnapKit */; };
-		0B59E3D02B3B2830000FCB3B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3CF2B3B2830000FCB3B /* SnapKit-Dynamic */; };
 		0B59E3D32B3B2839000FCB3B /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3D22B3B2839000FCB3B /* Then */; };
 		0B59E3D52B3B301F000FCB3B /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59E3D42B3B301F000FCB3B /* PagingView.swift */; };
+		0B59E3D82B3C0FD5000FCB3B /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3D72B3C0FD5000FCB3B /* KakaoSDK */; };
+		0B59E3DA2B3C0FD5000FCB3B /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3D92B3C0FD5000FCB3B /* KakaoSDKAuth */; };
+		0B59E3DC2B3C0FD5000FCB3B /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3DB2B3C0FD5000FCB3B /* KakaoSDKCert */; };
+		0B59E3DE2B3C0FD5000FCB3B /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3DD2B3C0FD5000FCB3B /* KakaoSDKCertCore */; };
+		0B59E3E02B3C0FD5000FCB3B /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 0B59E3DF2B3C0FD5000FCB3B /* KakaoSDKCommon */; };
+		0B9A22A02B3C5B8500C07023 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B9A229F2B3C5B8500C07023 /* SnapKit */; };
 		0BC043DB2B3A9DD2008495FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DA2B3A9DD2008495FB /* AppDelegate.swift */; };
 		0BC043DD2B3A9DD2008495FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DC2B3A9DD2008495FB /* SceneDelegate.swift */; };
 		0BC043DF2B3A9DD2008495FB /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC043DE2B3A9DD2008495FB /* MainTabBarViewController.swift */; };
@@ -24,9 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1CE5362B3C8D4100ED55EC /* Netflix-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Netflix-iOS.entitlements"; sourceTree = "<group>"; };
 		0B59E3BC2B3B06D0000FCB3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0B59E3BE2B3B06E2000FCB3B /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
-		0B59E3C02B3B06EC000FCB3B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0B59E3C02B3B06EC000FCB3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B59E3C22B3B06F9000FCB3B /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		0B59E3C82B3B1110000FCB3B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		0B59E3D42B3B301F000FCB3B /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
@@ -44,9 +49,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B59E3CE2B3B2830000FCB3B /* SnapKit in Frameworks */,
+				0B59E3E02B3C0FD5000FCB3B /* KakaoSDKCommon in Frameworks */,
+				0B59E3D82B3C0FD5000FCB3B /* KakaoSDK in Frameworks */,
 				0B59E3D32B3B2839000FCB3B /* Then in Frameworks */,
-				0B59E3D02B3B2830000FCB3B /* SnapKit-Dynamic in Frameworks */,
+				0B9A22A02B3C5B8500C07023 /* SnapKit in Frameworks */,
+				0B59E3DC2B3C0FD5000FCB3B /* KakaoSDKCert in Frameworks */,
+				0B59E3DA2B3C0FD5000FCB3B /* KakaoSDKAuth in Frameworks */,
+				0B59E3DE2B3C0FD5000FCB3B /* KakaoSDKCertCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +67,7 @@
 			children = (
 				0B59E3BC2B3B06D0000FCB3B /* HomeViewController.swift */,
 				0B59E3BE2B3B06E2000FCB3B /* UpcomingViewController.swift */,
-				0B59E3C02B3B06EC000FCB3B /* SearchViewController.swift */,
+				0B59E3C02B3B06EC000FCB3B /* LoginViewController.swift */,
 				0B59E3C22B3B06F9000FCB3B /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
@@ -132,6 +141,7 @@
 		0BC043D92B3A9DD2008495FB /* Netflix-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0B1CE5362B3C8D4100ED55EC /* Netflix-iOS.entitlements */,
 				0B59E3CA2B3B1118000FCB3B /* Resources */,
 				0B59E3CB2B3B1121000FCB3B /* Presentations */,
 				0BC043DA2B3A9DD2008495FB /* AppDelegate.swift */,
@@ -161,9 +171,13 @@
 			);
 			name = "Netflix-iOS";
 			packageProductDependencies = (
-				0B59E3CD2B3B2830000FCB3B /* SnapKit */,
-				0B59E3CF2B3B2830000FCB3B /* SnapKit-Dynamic */,
 				0B59E3D22B3B2839000FCB3B /* Then */,
+				0B59E3D72B3C0FD5000FCB3B /* KakaoSDK */,
+				0B59E3D92B3C0FD5000FCB3B /* KakaoSDKAuth */,
+				0B59E3DB2B3C0FD5000FCB3B /* KakaoSDKCert */,
+				0B59E3DD2B3C0FD5000FCB3B /* KakaoSDKCertCore */,
+				0B59E3DF2B3C0FD5000FCB3B /* KakaoSDKCommon */,
+				0B9A229F2B3C5B8500C07023 /* SnapKit */,
 			);
 			productName = "Netflix-iOS";
 			productReference = 0BC043D72B3A9DD2008495FB /* Netflix-iOS.app */;
@@ -194,8 +208,9 @@
 			);
 			mainGroup = 0BC043CE2B3A9DD2008495FB;
 			packageReferences = (
-				0B59E3CC2B3B2830000FCB3B /* XCRemoteSwiftPackageReference "SnapKit" */,
 				0B59E3D12B3B2839000FCB3B /* XCRemoteSwiftPackageReference "Then" */,
+				0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				0B9A229E2B3C5B8500C07023 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 0BC043D82B3A9DD2008495FB /* Products */;
 			projectDirPath = "";
@@ -224,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B59E3D52B3B301F000FCB3B /* PagingView.swift in Sources */,
-				0B59E3C12B3B06EC000FCB3B /* SearchViewController.swift in Sources */,
+				0B59E3C12B3B06EC000FCB3B /* LoginViewController.swift in Sources */,
 				0BC043DF2B3A9DD2008495FB /* MainTabBarViewController.swift in Sources */,
 				0B59E3C92B3B1110000FCB3B /* CollectionViewTableViewCell.swift in Sources */,
 				0B59E3C32B3B06F9000FCB3B /* DownloadsViewController.swift in Sources */,
@@ -373,9 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Netflix-iOS/Netflix-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7F3S7B9JL;
+				DEVELOPMENT_TEAM = 65NSM7Z327;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netflix-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kimSeonWoo.Netflix-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Netflix-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -400,9 +416,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Netflix-iOS/Netflix-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7F3S7B9JL;
+				DEVELOPMENT_TEAM = 65NSM7Z327;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netflix-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -414,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kimSeonWoo.Netflix-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Netflix-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,14 +463,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0B59E3CC2B3B2830000FCB3B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
 		0B59E3D12B3B2839000FCB3B /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
@@ -462,23 +471,59 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.20.0;
+			};
+		};
+		0B9A229E2B3C5B8500C07023 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0B59E3CD2B3B2830000FCB3B /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0B59E3CC2B3B2830000FCB3B /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		0B59E3CF2B3B2830000FCB3B /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0B59E3CC2B3B2830000FCB3B /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
 		0B59E3D22B3B2839000FCB3B /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0B59E3D12B3B2839000FCB3B /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		0B59E3D72B3C0FD5000FCB3B /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		0B59E3D92B3C0FD5000FCB3B /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		0B59E3DB2B3C0FD5000FCB3B /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		0B59E3DD2B3C0FD5000FCB3B /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		0B59E3DF2B3C0FD5000FCB3B /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B59E3D62B3C0FD5000FCB3B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		0B9A229F2B3C5B8500C07023 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B9A229E2B3C5B8500C07023 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

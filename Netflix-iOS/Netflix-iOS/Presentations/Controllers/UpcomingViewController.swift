@@ -111,15 +111,15 @@ final class UpcomingViewController: UIViewController {
     }
     
     @objc func startProgress() {
-//        UIView.animate(withDuration: 0.5) {
-//            self.progress += 0.2
-//            self.progressBar.setProgress(self.progress, animated: true)
-//        }
-        
-        let mainVC = DownloadsViewController()
-        mainVC.modalPresentationStyle = .fullScreen
-        mainVC.modalTransitionStyle = .crossDissolve
-        self.present(mainVC, animated: true, completion: nil)
+        UIView.animate(withDuration: 0.5) {
+            self.progress += 0.2
+            self.progressBar.setProgress(self.progress, animated: true)
+        }
+//        
+//        let mainVC = DownloadsViewController()
+//        mainVC.modalPresentationStyle = .fullScreen
+//        mainVC.modalTransitionStyle = .crossDissolve
+//        self.present(mainVC, animated: true, completion: nil)
     }
 }
 
